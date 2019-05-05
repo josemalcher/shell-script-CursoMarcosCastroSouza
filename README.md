@@ -219,7 +219,10 @@ funcao
 
 ## <a name="parte7"> Versionamento</a>
 
-
+```bash
+1.0-2019-05-04
+2.0-2019-05-05
+```
 
 [Voltar ao Índice](#indice)
 
