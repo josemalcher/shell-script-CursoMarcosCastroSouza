@@ -53,7 +53,7 @@ Instrutor - Marcos Castro Souza
 
 - 01-HelloShellScript/script.sh
   
-```Shell
+```bash
 # isso é um comentário
 
 echo "Schell script é maneiro!!"
@@ -76,7 +76,7 @@ Schell script é maneiro!!
 
 ## <a name="parte2"> Cabeçalho completo</a>
 
-```shell
+```bash
 #!/bin/bash
 #
 # script.sh - Meu primeiro script
@@ -108,7 +108,7 @@ Schell script é maneiro!!
 ## <a name="parte3"> Código limpo</a>
 
 
-```shell
+```bash
 #!/bin/bash
 
 # Regras para um código limpo:
@@ -143,7 +143,7 @@ zenity --info \
 
 ## <a name="parte4"> Comentários</a>
 
-```shell
+```bash
 #!/bin/bash
 #
 # script.sh
@@ -169,7 +169,22 @@ ls
 
 ## <a name="parte5"> Tipos especiais de comentários</a>
 
-
+```bash
+#
+#
+# TODO - indica uma tarefa a ser feita
+# FIXME - indica um bug conhecido que precisa ser arrumado
+# XXX - chama a atenção
+#
+#
+#
+#
+#
+#
+#
+#
+#
+```
 
 [Voltar ao Índice](#indice)
 
