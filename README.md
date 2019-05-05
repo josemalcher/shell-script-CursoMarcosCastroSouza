@@ -193,7 +193,24 @@ ls
 
 ## <a name="parte6"> Como nomear variáveis e funções</a>
 
+```bash
+#!/bin/bash
 
+# Variáveis são globais - definir se serão locais "local"
+nome_completo
+conta_corrente
+
+# não usar acentos
+# não serapar por espaços
+# palavra significativa
+
+funcao(){
+    echo "Ola mundo"
+}
+# chamando a função
+funcao
+
+```
 
 [Voltar ao Índice](#indice)
 
