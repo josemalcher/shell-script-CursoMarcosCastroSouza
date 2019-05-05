@@ -220,8 +220,8 @@ funcao
 ## <a name="parte7"> Versionamento</a>
 
 ```bash
-1.0-2019-05-04
-2.0-2019-05-05
+# 1.0-2019-05-04
+# 2.0-2019-05-05
 ```
 
 [Voltar ao Índice](#indice)
@@ -231,7 +231,21 @@ funcao
 
 ## <a name="parte8"> Outras dicas para melhorar seu script</a>
 
+- changelog
 
+```bash
+# 2019-05-04 (josemalcher) - iniciando o curso 
+# 2019-05-05    --- lançando a versão 1.3
+# 
+# Novidades da versão 1.5:
+#   - Novas popções... tc tc tc ...
+#   - bugs corrigidos e tc tc tc ....
+#
+# Agradecimentos..
+#   - Fulando ...
+#
+#
+``` 
 
 [Voltar ao Índice](#indice)
 
