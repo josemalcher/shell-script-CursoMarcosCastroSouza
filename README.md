@@ -315,6 +315,23 @@ done
 
 ## <a name="parte11"> Verificação de erro de sintaxe</a>
 
+```bash
+#!/bin/bash
+
+texto="wwww.josemalcher.net"
+texto=$echo $texto | tr a-z A-Z) # erro aqui
+texto=$(echo $texto | tr a-z A-Z) # correção
+echo "$texto"
+```
+
+```
+$ bash -n script.sh
+script.sh: linha 4: erro de sintaxe próximo ao token inesperado `)'
+script.sh: linha 4: `texto=$echo $texto | tr a-z A-Z)'
+
+$ bash -n script.sh     # Não imprime se estiver ok
+```
+
 
 
 [Voltar ao Índice](#indice)
